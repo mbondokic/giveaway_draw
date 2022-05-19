@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.card .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(315deg, #7b4397 0%, #dc2430 75%);
+}
+.card .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.btn-holder {
+  text-align: center;
+  padding: 40px;
+}
+button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #bdc3c7 0%, #2c3e50 75%);
+}
+button:hover {
+  background-position: right center;
+}
+button:active {
+  top: 2px;
+}
+.top-5 {
+  margin: 0 auto;
+  width: 50%;
+}
+.top-5 p {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+}
+.top-5 p:first-of-type {
+  background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+  color: white;
+}
+.top-5 h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
