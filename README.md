@@ -1,2 +1,7 @@
 # giveaway_draw
-Giveaway draw app exercise with a focus on displaying the top 5 list and "start again" functionality.
+Giveaway draw app exercise.
+
+###### Features
+- randomly choose users and add 5% width to their containers 
+- display top 5 users with points
+- restart
